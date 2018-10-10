@@ -1,31 +1,28 @@
 @charset "utf-8";
-/* CSS Document */
 
 .container{
   max-width: 940px;
   max-height: 1260px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
   background-color: #EDF2C5;
 }
 
-.all{
+.page{
   margin-left: 150px;
   margin-right: 150px;
 }
 
 .top{
   display: flex;
-  align-items: flex-end;
   margin-top: 50px;
 }
 
-#title{
+.heading{
   width: 270px;
   height: 43px;
-  margin-bottom:8px;
-  margin-right: 468px;
+  margin-bottom: 10px;
+  margin-right: 476px;
   color: #889C5B;
   font-family: Arial Black;
   font-size: 44px;
@@ -48,12 +45,12 @@ li{
  font-family: Arial Black;
 }
 
-#img_right_logo{
+.logo{
   display: flex;
 }
 
-#img_right_logo img{
-  margin-right: 10px;
+.logo img{
+  margin-right: 8px;
   width: 25px;
   height: 25px;
 }
@@ -68,15 +65,13 @@ li{
 .login{
   Width: 60px;
   height: 20px;
-  border: 1px solid #778A50;
+  border: 1px solid ;
   border-radius: 3px;
   font-family: Arial Black;
   font-size: 14px;
   color: #778A50;
   text-align: center;
-  line-height: 25px;
-   
-    
+  line-height: 25px;   
 }
 
 .join{
@@ -91,18 +86,17 @@ li{
 	line-height: 25px;
 }
 
-#img_middle_vegetables{
+.yellow{
 	width: 940px;
 	height: 448px;
-	margin-bottom: 30px;
-/*	border: 1px dotted #778A50;*/
+	margin-bottom: 32px;
 }
 
-#img_small_vegetables{
-	width: 415px;
+.vegetables{
+	width: 445px;
 	height: 45px;
-/*	border: 1px dotted #778A50;*/
 	margin-bottom: 15px;
+  margin-top:30px;
 	background: #778A50;
 	color: #EDF2C5;
 	font-size: 16px;
@@ -111,54 +105,53 @@ li{
 	padding-left: 30px;
 }
 
-.row_img{
+.raw_vegetables{
 	width:445px;
 	height: 140px;
 	display: flex;
 	justify-content: space-between;
 }
 
-.row_img img{
+.raw_vegetables img {
 	width:140px;
 	height: 140px;
 }
 
 aside{
-	width: 415px;
+	width: 445px;
 	height: 45px;
-/*	border: 1px dotted #778A50;*/
-	margin-bottom: 15px;
+	margin-bottom: 16px;
+  margin-top:30px;
 	background: #778A50;
 	color: #EDF2C5;
 	font-size: 16px;
 	font-family: Arial Black;
 	line-height: 45px;
-	padding-left: 30px;
+	padding-left: 31px;
 }
 
 section{
-	width: 430px;
-	height: 124px;
+	width: 444px;
+	height: 140px;
 	padding-left: 15px;
-	padding-top: 16px;
+	padding-top: 15px;
 	margin-bottom: 35px;
 	font-size:12px;
-	line-height: 133%;
 	font-family: Arial;
 	text-align: justify;
-	color: #7D7D7D;
+	color: #898989;
 	background: #F7FBDA;
 }
 
 .hr2{
-	width: 414px;
+	width: 413px;
 	height: 1px;
 	background: #7D7D7D;
-	margin-top: 16px;
-	margin-bottom: 16px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
-.bottom{
+.left{
 	display:flex;
 	justify-content: space-between;
 }
@@ -173,15 +166,3 @@ footer{
 	font-family: Arial;
 	color: #EDF2C5;
 }
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
