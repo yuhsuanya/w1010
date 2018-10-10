@@ -59,6 +59,11 @@ li{
   height: 25px;
 }
 
+.ig{
+  margin-right:10px;
+  
+}
+
 .hr{
   width: 1px;
   height: 20px;
@@ -95,7 +100,7 @@ li{
 .yellow{
 	width: 940px;
 	height: 448px;
-	margin-bottom: 32px;
+	margin-bottom: 30px;
 }
 
 .vegetables{
